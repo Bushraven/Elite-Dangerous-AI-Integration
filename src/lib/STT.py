@@ -29,7 +29,7 @@ class STT:
     listening = False
     resultQueue = queue.Queue()
 
-    prompt = "Computer, pirates are attacking our ship! Call Wakata Station in HIP 23716 for help and enter supercruise immediately!"
+    # prompt = "Computer, pirates are attacking our ship! Call Wakata Station in HIP 23716 for help and enter supercruise immediately!"
 
     def __init__(self, openai_client: Optional[openai.OpenAI], phrase_time_limit=15, energy_threshold=1000,
                  linux_mic_name='pipewire', model='whisper-1', language=None):
